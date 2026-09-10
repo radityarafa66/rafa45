@@ -1,0 +1,25 @@
+:root {
+    --mm-red: #E60012;
+    --mm-dark: #111111;
+    --mm-card: #1A1A1A;
+}
+
+.hero-bg {
+    background: linear-gradient(135deg, rgba(17,17,17,0.95) 0%, rgba(230,0,18,0.3) 100%), 
+                url('https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--mm-dark);
+}
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--mm-red);
+}
